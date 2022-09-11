@@ -78,7 +78,7 @@ const MainRoutes = {
             ]
         },
         {
-            path: '/',
+            path: '/dashboard',
             element: <DashboardDefault />
         },
         {
