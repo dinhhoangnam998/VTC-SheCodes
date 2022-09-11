@@ -22,7 +22,7 @@ const workspaces = {
 
             children: [
                 {
-                    id: 'computer-vision',
+                    id: 'it2-computer-vision',
                     title: 'Computer Vision',
                     type: 'collapse',
                     children: [
@@ -30,28 +30,25 @@ const workspaces = {
                             id: 'tasks',
                             title: 'Tasks',
                             type: 'item',
-                            url: '/workspaces/it-2/computer-vision/tasks'
-                            // target: true
+                            url: '/workspaces/tasks/it-2/computer-vision'
                         },
                         {
                             id: 'member',
                             title: 'Members',
                             type: 'item',
-                            url: '/workspaces/it-2/computer-vision/members'
-                            // target: true
+                            url: '/workspaces/members/it-2/computer-vision'
                         },
                         {
                             id: 'chat',
                             title: 'Chat',
                             type: 'item',
-                            url: '/workspaces/it-2/computer-vision/chat'
-                            // target: true
+                            url: '/workspaces/chat/it-2/computer-vision'
                         }
                     ]
                 },
 
                 {
-                    id: 'machine-learning',
+                    id: 'it2-machine-learning',
                     title: 'Machine Learning',
                     type: 'collapse',
                     children: [
@@ -59,24 +56,24 @@ const workspaces = {
                             id: 'tasks',
                             title: 'Tasks',
                             type: 'item',
-                            url: '/workspaces/it-2/machine-learning/tasks'
+                            url: '/workspaces/tasks/it-2/machine-learning/'
                         },
                         {
                             id: 'member',
                             title: 'Members',
                             type: 'item',
-                            url: '/workspaces/it-2/machine-learning/members'
+                            url: '/workspaces/members/it-2/machine-learning/'
                         },
                         {
                             id: 'chat',
                             title: 'Chat',
                             type: 'item',
-                            url: '/workspaces/it-2/machine-learning/chat'
+                            url: '/workspaces/chat/it-2/machine-learning/'
                         }
                     ]
                 },
                 {
-                    id: 'compiler',
+                    id: 'it2-compiler',
                     title: 'Compiler',
                     type: 'item',
                     url: '/workspaces/she-codes/compiler'
@@ -94,8 +91,7 @@ const workspaces = {
                     id: 'project-management',
                     title: 'Project Management',
                     type: 'item',
-                    url: '/workspaces/abc-club/project-management',
-                    target: true
+                    url: '/workspaces/abc-club/project-management'
                 }
             ]
         },
@@ -110,16 +106,14 @@ const workspaces = {
                     id: 'hackathon',
                     title: 'Hackathon',
                     type: 'item',
-                    url: '/workspaces/she-codes/hackathon',
-                    target: true
+                    url: '/workspaces/she-codes/hackathon'
                 },
 
                 {
                     id: 'web-programming',
                     title: 'Web Programming',
                     type: 'item',
-                    url: '/workspaces/abc-club/web-programming',
-                    target: true
+                    url: '/workspaces/abc-club/web-programming'
                 }
             ]
         }

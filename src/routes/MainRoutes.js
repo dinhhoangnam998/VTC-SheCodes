@@ -4,6 +4,9 @@ import { lazy } from 'react';
 import MainLayout from 'layout/MainLayout';
 import Loadable from 'ui-component/Loadable';
 import Plan from '../views/plans/default';
+import Tasks from '../views/projects/tasks';
+import Members from '../views/projects/members';
+import Underworking from '../views/underworking';
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
@@ -30,6 +33,47 @@ const MainRoutes = {
                 {
                     path: '*',
                     element: <Plan />
+                }
+            ]
+        },
+        {
+            path: 'workspaces',
+            children: [
+                {
+                    path: 'tasks',
+                    children: [
+                        {
+                            path: '*',
+                            element: <Tasks />
+                        }
+                    ]
+                },
+                {
+                    path: 'members',
+                    children: [
+                        {
+                            path: '*',
+                            element: <Members />
+                        }
+                    ]
+                },
+                {
+                    path: 'chat',
+                    children: [
+                        {
+                            path: '*',
+                            element: <Underworking />
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            path: 'workspaces',
+            children: [
+                {
+                    path: '*',
+                    element: <Underworking />
                 }
             ]
         },
